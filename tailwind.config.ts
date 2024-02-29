@@ -10,7 +10,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				primary: '#8540c8',
+				primary: '#5e5ce6',
 				sucess: '#41c958',
 				alert: '#d44760',
 
@@ -20,6 +20,6 @@ const config: Config = {
 			}
 		}
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/container-queries")],
 };
 export default config;
