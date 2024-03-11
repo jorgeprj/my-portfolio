@@ -65,6 +65,26 @@ export const GridItems: GridItemInterface[] = [
 				title: "eBid",
 				link: "https://github.com/jorgeprj/ebid-react",
 			},
+			{
+				title: "GoodFood",
+				link: "https://github.com/jorgeprj/goodfood-react",
+			},
+			{
+				title: "Bucks",
+				link: "https://github.com/jorgeprj/bucks-react",
+			},
+			{
+				title: "To-Do List",
+				link: "https://github.com/jorgeprj/todo-list-react",
+			},
+			{
+				title: "Taskee",
+				link: "https://github.com/jorgeprj/taskee-react",
+			},
+			{
+				title: "CSGO Match Simulator",
+				link: "https://github.com/jorgeprj/csgo-match-simulator",
+			},
 		],
 	},
 	{
