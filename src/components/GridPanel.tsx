@@ -3,7 +3,7 @@ import { siteConfig } from "@/config/site-config";
 import { stagger, useAnimate } from "framer-motion";
 import { useEffect } from "react";
 import GridItem from "./GridItem";
-import SocialBox from "./gridItems/SocialBox";
+import ProjectBox from "./gridItems/ProjectBox";
 import ProjectsBox from "./gridItems/ProjectsBox";
 
 const GridPanel = () => {
@@ -37,9 +37,9 @@ const GridPanel = () => {
             {siteConfig.items.map((item, index) => {
                 return (
                     <GridItem key={item.title + index} size={item.layout}>
-                        {item.type === "social" ? (
-                            <SocialBox item={item} />
-                        ) : item.type === "project" ? (
+                        {item.type === "project" ? (
+                            <ProjectBox item={item} />
+                        ) : item.type === "projects" ? (
                             <ProjectsBox item={item} />
                         ) :
                             (

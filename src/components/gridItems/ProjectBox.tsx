@@ -2,9 +2,9 @@ import React from 'react'
 import Link from "next/link";
 import Icon from './Icon';
 import Button from './Button';
-import { GridItemInterface } from "./../../config/site-config";
+import { GridItemInterface } from "../../config/site-config";
 
-const SocialBox = ({ item }: { item: GridItemInterface }) => {
+const ProjectBox = ({ item }: { item: GridItemInterface }) => {
     return (
         <>
             <div className="flex items-center justify-between">
@@ -49,4 +49,4 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
 };
 
 
-export default SocialBox
+export default ProjectBox

@@ -3,18 +3,28 @@ import { siteConfig } from "@/config/site-config";
 import { Download, Mail } from "lucide-react";
 import Footer from "./Footer";
 import Button from "./forms/Button";
-import Image from "next/image";
 import Avatar from "./Avatar";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import Timeline from "./Timeline";
 
 const Header = () => {
 	return (
-		<header key="header" className="flex flex-col justify-between py-6 xl:max-w-sm xl:py-10 xl:h-full">
+		<header key="header" className="flex flex-col justify-between pt-6 xl:max-w-sm xl:py-10 xl:h-full">
 			<div>
-				<Avatar/>
+				<Avatar />
 				<div className="mt-6">
 					<div className="font-semibold text-primary mb-2">{siteConfig.title}</div>
 					<h1 className="text-4xl font-bold mb-1">{siteConfig.creator}</h1>
 					<p className="text-neutral-500">{siteConfig.bio}</p>
+				</div>
+
+				<div className="flex gap-4 mt-4 items-center">
+					<a href="https://www.linkedin.com/in/jorgeprj/">
+						<FaLinkedinIn className="w-6 h-6 text-neutral-900 dark:text-white" />
+					</a>
+					<a href="https://github.com/jorgeprj">
+						<FaGithub className="w-6 h-6 text-neutral-900 dark:text-white" />
+					</a>
 				</div>
 
 
@@ -29,7 +39,11 @@ const Header = () => {
 					</Button>
 				</div>
 
-				<div className="hidden mt-6 xl:flex">
+				<div className="mt-8">
+					<Timeline/>
+				</div>
+
+				<div className="hidden my-6 xl:flex">
 					<Footer />
 				</div>
 			</div>

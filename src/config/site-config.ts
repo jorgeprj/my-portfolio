@@ -1,5 +1,5 @@
 export type GridItemLayout = "1x2" | "2x1" | "2x2" | "2x4";
-export type GridItemType = "social" | "project" | "certificate";
+export type GridItemType = "project" | "projects";
 
 export interface GridItemInterface {
 	layout: GridItemLayout;
@@ -25,40 +25,31 @@ export type ProjectItem = {
 export const GridItems: GridItemInterface[] = [
 	{
 		layout: "2x2",
-		type: "social",
-		title: "UFSCar",
-		icon: "ufscar",
-		username: "Bacharelado, Ciência da Computação",
-		description:
-			"Graduando em Ciência da Computação pela Universidade Federal de São Carlos (UFSCar).",
-		color: "#E74A51",
-		buttonTitle: "Saiba Mais",
-		buttonLink: "https://www.ufscar.br",
-	},
-	{
-		layout: "1x2",
-		type: "social",
-		title: "LinkedIn",
-		icon: "linkedin",
-		username: "@jorgeprj",
-		buttonTitle: "Conexão",
-		buttonLink: "https://www.linkedin.com/in/jorgeprj/",
-		color: "#0077B5",
-	},
-	{
-		layout: "1x2",
-		type: "social",
-		title: "Github",
+		type: "project",
+		title: "Nubank Landing Page",
 		icon: "github",
-		username: "@jorgeprj",
-		buttonTitle: "Seguir",
-		buttonSecondaryText: "10",
-		buttonLink: "https://github.com/jorgeprj",
-		color: "#070707",
+		username: "NextJS - TailwindCSS",
+		description:
+			"Essa Landing Page é uma representação simplificada do site oficial do banco Nubank.",
+		buttonTitle: "Saiba Mais",
+		buttonLink: "https://github.com/jorgeprj/nubank-landing-page",
+		color: "black",
+	},
+	{
+		layout: "2x2",
+		type: "project",
+		title: "CSGO Major Cards",
+		icon: "github",
+		username: "HTML - CSS - JavaScript",
+		description:
+		"Um projeto para representar alguns jogadores brasileiros em cartas com características únicas.",
+		buttonTitle: "Saiba Mais",
+		buttonLink: "https://jorgeprj.github.io/csgo-major-cards/",
+		color: "black",
 	},
 	{
 		layout: "2x4",
-		type: "project",
+		type: "projects",
 		title: "Todos os Projetos",
 		image: "/projects.png",
 		projects: [
@@ -78,15 +69,15 @@ export const GridItems: GridItemInterface[] = [
 	},
 	{
 		layout: "2x2",
-		type: "social",
-		title: "PET-BCC",
-		icon: "pet",
-		username: "Bolsista do PET-BCC",
+		type: "project",
+		title: "eBid - Site de Leilão",
+		icon: "github",
+		username: "React - TailwindCSS",
 		description:
-			"Ativo em diversos projetos, principalmente relacionados a Desenvolvimento Web e Github.",
-		color: "#008CB8",
+			"Projeto que consiste em um site de vendas de itens de colecionador em formato de leilão.",
+		color: "black",
 		buttonTitle: "Saiba Mais",
-		buttonLink: "https://petbcc.ufscar.br",
+		buttonLink: "#",
 	}
 ];
 
