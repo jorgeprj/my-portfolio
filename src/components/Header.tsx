@@ -29,7 +29,7 @@ const Header = () => {
 
 
 				<div className="flex items-center gap-3 mt-6">
-					<Button href="/CV.pdf">
+					<Button href="/JorgePires_Curriculo.pdf">
 						<Download size="14" />
 						Curriculo
 					</Button>

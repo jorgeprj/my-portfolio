@@ -38,13 +38,13 @@ export const GridItems: GridItemInterface[] = [
 	{
 		layout: "2x2",
 		type: "project",
-		title: "CSGO Major Cards",
+		title: "Arca do Cerrado",
 		icon: "github",
-		username: "HTML - CSS - JavaScript",
+		username: "React - Tailwind - Django",
 		description:
-		"Um projeto para representar alguns jogadores brasileiros em cartas com características únicas.",
+		"A criação de um site para o Arca do Cerrado da UFSCar com um Mapa Interativo. ",
 		buttonTitle: "Saiba Mais",
-		buttonLink: "https://jorgeprj.github.io/csgo-major-cards/",
+		buttonLink: "https://github.com/petbccufscar/arca-do-cerrado",
 		color: "black",
 	},
 	{
@@ -90,23 +90,21 @@ export const GridItems: GridItemInterface[] = [
 	{
 		layout: "2x2",
 		type: "project",
-		title: "eBid - Site de Leilão",
+		title: "WebChat via Email",
 		icon: "github",
-		username: "React - TailwindCSS",
+		username: "React - StyledComponents - Firebase",
 		description:
-			"Projeto que consiste em um site de vendas de itens de colecionador em formato de leilão.",
+			"Projeto desenvolvido para criar um ambiente de comuniação entre os membros do PET via email.",
 		color: "black",
 		buttonTitle: "Saiba Mais",
-		buttonLink: "#",
+		buttonLink: "https://github.com/jorgeprj/web-chat",
 	}
 ];
 
 export const siteConfig = {
 	creator: "Jorge Pires",
-	title: "Desenvolvedor Front-end",
+	title: "Desenvolvedor",
 	bio: "Sou um estudante de ciência da computação na UFSCar, apaixonado por desenvolvimento web e design de interfaces.",
-	location: "São Paulo, Brasil",
-	locationLink: "https://www.google.com/maps/place/Ribeirão+Preto,+SP/@-21.1796323,-47.8025861,12z/data=!3m1!4b1!4m6!3m5!1s0x94b9bf1d68acc21d:0x37b8ee0abedeea39!8m2!3d-21.1694018!4d-47.8110855!16zL20vMDFzcXNz?entry=ttu",
 	email: "jorgeprjdev@gmail.com",
 	items: GridItems,
 } as const;
