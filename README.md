@@ -7,7 +7,9 @@ Bem-vindo ao meu repositório do GitHub para o meu Portfólio Pessoal! Este proj
 
 ## Wireframes em Next.js 14
 
-Os wireframes da página principal foram desenvolvidos utilizando Next.js 14 e estão disponíveis neste repositório. Eles fornecem uma representação visual da estrutura planejada para a página, ajudando na implementação e no design.
+Os wireframes foram desenvolvidos para guiar o desenvolvimento do projeto. Seguindo o 
+Figma criado, os wireframes foram implementados em NextJS, assim facilitando a visualização
+do que seria a página principal.
 
 
 ## Estrutura da Página Principal
@@ -23,15 +25,17 @@ A página principal do meu Portfólio é composta por duas partes principais:
 
 2. **Grid de Cards:**
    - Uma grade contendo diversos "cards" que apresentam diferentes projetos, experiências ou habilidades.
-
+  
+3. **Card do projeto:**
+   - Ao clicar em um dos cards é aberto um card com os detalhes do projeto, com links para visuzalição do projeto tanto no github, quanto a demonstração do projeto (se possível).
 
 ## Próximos Passos
 
-Os próximos passos para este projeto incluem:
+O que já está sendo desenvolvido:
 
-- Implementação da página principal com base nos wireframes em Next.js 14.
-- Adição de conteúdo real às seções de Informações Pessoais e Grid de Cards.
-- Implementação de funcionalidades adicionais, conforme necessário.
+- Animação dos cards para deixar o site mais fluído.
+- Fixação da barra lateral para evitar a rolagem desnecessária.
+- Integração com a API do Github para buscar algumas informações de forma automática.
 
 
 ## Contribuição
