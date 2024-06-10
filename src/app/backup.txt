@@ -1,0 +1,25 @@
+                    <AnimatePresence>
+                        {projectId ? (
+                            <motion.div
+                                key="project"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.5 }}
+                                style={{ position: 'absolute', width: '100%' }}
+                            >
+                                <Project projectId={projectId} setProjectId={setProjectId} />
+                            </motion.div>
+                        ) : (
+                            <motion.div
+                                key="grid"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.25 }}
+                                style={{ position: 'absolute', width: '100%' }}
+                            >
+                                <Grid setProjectId={setProjectId} />
+                            </motion.div>
+                        )}
+                    </AnimatePresence>

@@ -9,17 +9,13 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
-			colors: {
-				primary: '#5e5ce6',
-				sucess: '#41c958',
-				alert: '#d44760',
-
+			backgroundImage: {
+				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+				"gradient-conic":
+					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
-			boxShadow: {
-				grid: '0px 4px 10px 0px rgba(0, 0, 0, 0.05);'
-			}
-		}
+		},
 	},
-	plugins: [require("@tailwindcss/container-queries")],
+	plugins: [],
 };
 export default config;

@@ -1,4 +1,4 @@
-import { ThemeToggle } from "./forms/ThemeToggle";
+import { ThemeToggle } from "../common/ThemeToggle";
 
 const Footer = () => {
     return (
