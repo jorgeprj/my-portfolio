@@ -34,11 +34,11 @@ export const data: Data = {
 		},
 		{
 			id: 2,
-			title: "Arca do Cerrado",
-			github_link: "https://github.com/petbccufscar/arca-do-cerrado",
+			title: "Kings League API",
+			github_link: "https://github.com/jorgeprj/kings-league-api",
 			size: "1x2",
-			tec: ["ReactJS", "TailwindCSS", "Django", "JavaScript", "Python" ],
-			desc: "A criação de um site para o Arca do Cerrado da UFSCar. O site possui uma mapa interativo construido com o Leaflet, envio de mensagem, blog e um backend feito em Django. ",
+			tec: ["Python", "SQLite", "Flask"],
+			desc: "Uma API da Kings League World Cup 2024. Ela foi construida utilizando Flask e com um banco de dados em SQLite. A API possui um CRUD completo.",
 		},
 		{
 			id: 3,
@@ -73,6 +73,14 @@ export const data: Data = {
 			tec: ["ReactJs", "CSS"],
 			desc: "Um site fictício de comida contendo receitas, análise dos chefes, ranking... Os dados são retirados de arquivos JSON e todas as imagens são geradas com IA.",
 			img: Project6
+		},
+		{
+			id: 7,
+			title: "Arca do Cerrado",
+			github_link: "https://github.com/petbccufscar/arca-do-cerrado",
+			size: "1x2",
+			tec: ["ReactJS", "TailwindCSS", "Django", "JavaScript", "Python" ],
+			desc: "A criação de um site para o Arca do Cerrado da UFSCar. O site possui uma mapa interativo construido com o Leaflet, envio de mensagem, blog e um backend feito em Django.",
 		},
 		{
 			id: 7,

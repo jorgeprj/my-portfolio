@@ -1,4 +1,4 @@
-import { FaGithub, FaHtml5, FaJava, FaLinkedinIn } from "react-icons/fa6"
+import { FaGithub, FaHtml5, FaJava, FaLinkedinIn, FaPython } from "react-icons/fa6"
 import { BiLogoTypescript, BiLogoJavascript, BiLogoReact } from "react-icons/bi";
 import { RiNextjsLine } from "react-icons/ri";
 
@@ -57,6 +57,12 @@ export const getIcon = (name: string) => {
                 <div className={`bg-orange-500 rounded-xl p-2 text-2xl w-fit text-white`}>
                     <FaHtml5 />
                 </div>
+            )
+        case "python":
+            return (
+                <div className={`bg-blue-400 rounded-xl p-2 text-2xl w-fit text-white`}>
+                    <FaPython />
+                 </div>
             )
     }
 } 
