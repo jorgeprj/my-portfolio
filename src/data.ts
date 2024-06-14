@@ -36,13 +36,15 @@ export const data: Data = {
 			id: 2,
 			title: "Kings League API",
 			github_link: "https://github.com/jorgeprj/kings-league-api",
+			demo_link: "https://kings-league-api.onrender.com",
 			size: "1x2",
 			tec: ["Python", "SQLite", "Flask", "Web Scraping"],
 			desc: "Uma API da Kings League World Cup 2024. Ela foi construida utilizando Flask e com um banco de dados em SQLite. Os dados são retirados do site oficial através de um script de web-scraping.",
 			big_desc: [
 				"Inicialmente, o projeto começou com a construção de uma API simples de jogadores utilizando Python, com a biblioteca Flask, e SQLite como banco de dados. Durante o processo, ficou claro a necessidade de um script de web-scraping, devido ao tamanho do dataset (+400 jogadores).",
 				"Para o web-scraping, também foi utilizado Python, com a biblioteca Beautiful Soup. O script identifica padrões específicos de classe em tags HTML no site oficial da Kings World Cup, extrai os valores e os organiza em uma tabela usando a biblioteca Pandas. Após o processamento completo, os dados foram exportados para o arquivo players.csv.",
-				"Para finalizar, foi desenvolvido um código simples que lê o arquivo players.csv e insere os dados no SQLite."
+				"Para finalizar, foi desenvolvido um código simples que lê o arquivo players.csv e insere os dados no SQLite.",
+				"O site está disponivel a partir da plataforma Render, de forma gratuita. As funções de POST, PATCH e DELETE estão disabilitadas por questões de segurança, mas é possível fazer o download do projeto completo no GitHub."
 			]
 		},
 		{
