@@ -8,6 +8,7 @@ export type Project = {
     github_link?: string;
     demo_link?: string;
     desc: string;
+    big_desc?: string[];
     img?: StaticImageData;
 }
 

@@ -27,10 +27,19 @@ const Project = ({ projectId, setProjectId }: ProjectProps) => {
 						</div>
 						<div className="flex gap-8">
 							<div className="flex flex-col gap-8 w/1/2">
-								<p className="dark:text-zinc-300 text-sm">
-									<span className="italic dark:text-zinc-100">{project?.title} - </span>
-									{project?.desc}
-								</p>
+								<div className="flex flex-col gap-4">
+									<p className="dark:text-zinc-300 text-sm">
+										<span className="italic dark:text-zinc-100">{project?.title} - </span>
+										{project?.desc}
+									</p>
+									{project?.big_desc && project.big_desc.map((desc, index) => (
+										<p key={index} className="dark:text-zinc-300 text-sm">
+											{desc}
+										</p>
+									))}
+								</div>
+
+								
 								<div className="flex gap-4">
 									{project?.github_link && (
 										<div className="border border-zinc-800 dark:border-white w-fit p-2.5 rounded-full hover:bg-zinc-200 hover:dark:bg-zinc-800 cursor-pointer">
